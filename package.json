@@ -10,7 +10,8 @@
     "export": "./node_modules/.bin/phantomjs index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -38,7 +39,7 @@
     "nsconfig": "^0.2.0",
     "phantomjs": "^2.1.1",
     "yargs": "^3.27.0",
-    "snyk": "^1.52.1"
+    "snyk": "^1.83.0"
   },
   "snyk": true
 }
